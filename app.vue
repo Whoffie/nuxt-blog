@@ -1,13 +1,17 @@
 <template>
-  <div class="bg-indigo-900 h-screen">
+  <div class=" h-screen">
     <Navigation />
-    <Splash />    
+    <Splash />
+    <SidePanels />
+    <Feed />
   </div>
 </template>
 
 <script>
-    import Navigation from "/components/Navigation.vue"
-    import Splash from "/components/Splash.vue"
+    import Navigation from '/components/Navigation.vue'
+    import Splash from '/components/Splash.vue'
+    import Feed from '/components/Feed.vue'
+    import SidePanels from '/components/SidePanels.vue'
 </script>
 
 <style>
@@ -15,5 +19,6 @@
 
   body {
     font-family: vollkorn;
+    background-color: #312e81; /* bg-indigo-900 */
   }
 </style>

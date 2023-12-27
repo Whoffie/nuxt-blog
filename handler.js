@@ -20,7 +20,7 @@ app.get("/fetch/:item", (req, res) => {
 
     switch (item) {
         case 'splash':
-            let stmt = "SELECT `property`, `data` FROM `config` WHERE `category`='splash'"
+            let stmt = "SELECT `property`, `content` FROM `config` WHERE `category`='splash'"
 
             con.query(stmt, (err, splashdata) => {
                 if (!err) {
