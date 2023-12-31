@@ -1,17 +1,12 @@
 <template>
-  <div class=" h-screen">
+  <div class="h-screen z-0">
     <Navigation />
-    <Splash />
-    <SidePanels />
-    <Feed />
+    <NuxtPage />
   </div>
 </template>
 
-<script>
+<script setup>
     import Navigation from '/components/Navigation.vue'
-    import Splash from '/components/Splash.vue'
-    import Feed from '/components/Feed.vue'
-    import SidePanels from '/components/SidePanels.vue'
 </script>
 
 <style>

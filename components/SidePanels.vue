@@ -1,15 +1,15 @@
 <template>
-    <div class="float-right inline h-100 w-3/12 mt-16 ml-16 mr-16 mb-8">
-        <div class="bg-white rounded-lg pl-6 pt-4 pr-6 pb-4 mb-12">
+    <div class="float-right inline h-100 w-3/12 mt-16 ml-16 mr-16 mb-8 max-[1195px]:float-none max-[1195px]:block max-[1195px]:w-auto max-[1195px]:ml-10 max-[1195px]:mr-22">
+        <div class="bg-white rounded-lg pl-6 pt-4 pr-6 pb-4 mb-12 max-[1195px]:hidden">
             <h1 class="text-2xl">Search</h1>
             <div class="pt-2">
-                <input class="inline h-8 border-solid border-2 border-slate-800 rounded-l-md pl-2" type="text" name="search">
+                <input class="inline w-10/12 h-8 border-solid border-2 border-slate-800 rounded-l-md pl-2" type="text" name="search">
                 <button class="inline bg-slate-800 rounded-r-md h-8 w-8"><IconSearch class="inline align-middle text-white" :size="20" /></button>
             </div>
         </div>
         <div class="bg-white rounded-md pl-6 pt-4 pr-6 pb-4 mb-12">
-            <h1 class="text-2xl">Recent Activity</h1>
-            <div class="pl-4 pt-2">
+            <h1 class="text-2xl p-0 m-0">Recent Activity</h1>
+            <div class="pl-4 pt-2 max-[1195px]:pl-0">
                 <ul class="list-disc text-slate-800 underline">
                     <li><a href="#">Post one</a></li>
                     <li><a href="#">Post two</a></li>

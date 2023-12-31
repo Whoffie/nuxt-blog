@@ -1,6 +1,6 @@
 <template>
-    <div class="float-left inline w-1/2">
-        <div class="bg-white rounded-xl ml-12 mr-22">
+    <div class="float-left inline w-1/2 max-[1195px]:m-8 max-[1195px]:w-full max-[1195px]:block max-[1195px]:float-none">
+        <div class="bg-white rounded-xl ml-12 max-[1195px]:ml-0">
             <img class="w-full rounded-t-xl h-inherit" src="https://placehold.co/600x400" alt="Thumbnail">
             <div class="p-6">
                 <h1 class="text-4xl">A brand new title-- OMG</h1>
